@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #222;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+section {
+    padding: 80px 50px;
+    text-align: center;
+}
+
+#home {
+    background-color: white;
+    min-height: 300px;
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    background-color: #222;
+    color: white;
+    cursor: pointer;
+}
+
+.project {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+}
